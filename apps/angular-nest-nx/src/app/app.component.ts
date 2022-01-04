@@ -1,13 +1,23 @@
-import { Component } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
-import { Message } from '@angular-nest-nx/api-interfaces';
+/**
+ * @license
+ * Copyright Akveo. All Rights Reserved.
+ * Licensed under the MIT License. See License.txt in the project root for license information.
+ */
+import { Component, OnInit } from '@angular/core';
+import { AnalyticsService } from './@core/utils/analytics.service';
+import { SeoService } from './@core/utils/seo.service';
 
 @Component({
   selector: 'angular-nest-nx-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss'],
+  template: '<router-outlet></router-outlet>',
 })
-export class AppComponent {
-  hello$ = this.http.get<Message>('/api/hello');
-  constructor(private http: HttpClient) {}
+export class AppComponent implements OnInit {
+
+  constructor(private analytics: AnalyticsService, private seoService: SeoService) {
+  }
+
+  ngOnInit() {
+    this.analytics.trackPageViews();
+    this.seoService.trackCanonicalChanges();
+  }
 }
