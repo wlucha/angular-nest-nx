@@ -19,6 +19,12 @@ Starter project with Angular 13, Ngx-admin, NestJs, Nx Workspace, Jest, Cypress,
 ✅ [ESLint](https://eslint.org/)  
 ✅ [Prettier](https://prettier.io/)  
 
+## Frontend App
+The Angular 13 frontend app is based on the [ngx-admin](https://github.com/akveo/ngx-admin) starter kit.  
+
+![image](https://user-images.githubusercontent.com/7531596/148551080-de61fdb5-ffa4-496e-a26b-4bbf9dd35e9e.png)
+
+
 ## Deploy
 
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
