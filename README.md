@@ -7,6 +7,7 @@ Starter project with Angular 13, Ngx-admin, NestJs, Nx Workspace, Jest, Cypress,
 [![Build](https://api.travis-ci.org/wlucha/angular-nest-nx.svg?branch=master)](https://travis-ci.org/github/wlucha/angular-nest-nx)
 [![MIT](https://img.shields.io/packagist/l/doctrine/orm.svg)]()
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=wlucha_angular-nest-nx&metric=alert_status)](https://sonarcloud.io/dashboard?id=wlucha_angular-nest-nx)
+[![StackShare](http://img.shields.io/badge/tech-stack-0690fa.svg?style=flat)](https://stackshare.io/wlucha/angular-nest-nx)
 
 ## Features
 
