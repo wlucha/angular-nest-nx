@@ -1,4 +1,6 @@
-# Angular 13 + Ngx-admin + NestJs + NX
+![logo](https://user-images.githubusercontent.com/7531596/149632779-72903cdc-984b-440b-9258-13b421a39aa7.png)
+
+> Angular 13 + Ngx-admin + NestJs + NX
 
 Starter project with Angular 13, Ngx-admin, NestJs, Nx Workspace, Jest, Cypress, ESLint & Prettier
 
