@@ -1,7 +1,40 @@
 {
   "name": "angular-nest-nx",
-  "version": "0.0.0",
+  "version": "0.0.1",
+  "description": "Starter project with Angular 13, Ngx-admin, NestJs, Nx Workspace, Jest, Cypress, ESLint & Prettier",
+  "author": "Wilfried Lucha <wilfried@lucha.at>",
+  "homepage": "https://lucha.at",
   "license": "MIT",
+  "contributors": [
+    "Wilfried Lucha <wilfried@lucha.at>"
+  ],
+  "keywords": [
+    "angular",
+    "angular 13",
+    "angular-nest",
+    "angular nest",
+    "angular-nest-nx",
+    "angular nest nx",
+    "angular-starter",
+    "angular starter",
+    "angular-boilerplate",
+    "angular boilerplate",
+    "angular-template",
+    "angular template",
+    "nx",
+    "nx workspace",
+    "nest",
+    "nest js",
+    "nestjs",
+    "nest-js",
+    "eslint"
+  ],
+  "repository": "https://github.com/wlucha/angular-nest-nx.git",
+  "bugs": {
+    "url": "https://github.com/wlucha/angular-nest-nx/issues"
+  },
+  "readme": "https://github.com/wlucha/angular-nest-nx/blob/master/README.md",
+  "private": false,
   "scripts": {
     "ng": "nx",
     "start": "nx serve",
