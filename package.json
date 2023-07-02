@@ -39,6 +39,7 @@
     "ng": "nx",
     "start": "nx serve",
     "api": "nx serve api",
+    "web": "nx serve --host=0.0.0.0 --disableHostCheck",
     "build": "nx build",
     "test": "nx test",
     "lint": "eslint",
